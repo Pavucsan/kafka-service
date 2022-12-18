@@ -1,0 +1,28 @@
+# eureka client-server configuration
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: localhost
+
+# actuator /info endpoint
+info:
+  app:
+    name: kafka-service
+    description: This is kafka service to maintain the card for Virtusa assignment
+    version: 1.0.0
+
+server:
+  port: 8083
+
+spring:
+  application:
+    name: kafka-service
+  profiles:
+    active:
+      - dev
+
+
