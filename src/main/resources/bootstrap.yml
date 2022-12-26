@@ -1,12 +1,12 @@
-spring:
-  application:
-    name: kafka-service
-  cloud:
-    config:
-      uri: http://localhost:8899
-      profile: dev
-management:
-  endpoints:
-    web:
-      exposure:
-        include: '*'
+#spring:
+#  application:
+#    name: kafka-service
+#  cloud:
+#    config:
+#      uri: http://localhost:8899
+#      profile: dev
+##management:
+##  endpoints:
+##    web:
+##      exposure:
+##        include: '*service'

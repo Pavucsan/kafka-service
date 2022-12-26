@@ -20,11 +20,11 @@ info:
 server:
   port: 8083
 
-#spring:
-#  application:
-#    name: kafka-service
-#  profiles:
-#    active:
-#      - dev
+spring:
+  application:
+    name: kafka-service
+  profiles:
+    active:
+      - dev
 
 
