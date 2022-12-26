@@ -16,3 +16,5 @@ public class ConsumerServiceImpl {
         logger.info(Constant.TWO_VALUES,"KEY_TOPIC_MESSAGE_FROM_CLIENT", receiveMessage);
     }
 }
+
+// offset, partitioning, confluent
